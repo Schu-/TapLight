@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		499D2CB814E46C5A002B4A66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499D2CB714E46C5A002B4A66 /* UIKit.framework */; };
+		499D2CBA14E46C5A002B4A66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499D2CB914E46C5A002B4A66 /* Foundation.framework */; };
+		499D2CBC14E46C5A002B4A66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499D2CBB14E46C5A002B4A66 /* CoreGraphics.framework */; };
+		499D2CC214E46C5A002B4A66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 499D2CC014E46C5A002B4A66 /* InfoPlist.strings */; };
+		499D2CC414E46C5A002B4A66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 499D2CC314E46C5A002B4A66 /* main.m */; };
+		499D2CC814E46C5A002B4A66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 499D2CC714E46C5A002B4A66 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		499D2CB314E46C5A002B4A66 /* TapLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		499D2CB714E46C5A002B4A66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		499D2CB914E46C5A002B4A66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		499D2CBB14E46C5A002B4A66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		499D2CBF14E46C5A002B4A66 /* TapLight-Info.plist */ = {isa = PBXFileReference; path = "TapLight-Info.plist"; sourceTree = "<group>"; };
+		499D2CC114E46C5A002B4A66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		499D2CC314E46C5A002B4A66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		499D2CC514E46C5A002B4A66 /* TapLight-Prefix.pch */ = {isa = PBXFileReference; path = "TapLight-Prefix.pch"; sourceTree = "<group>"; };
+		499D2CC614E46C5A002B4A66 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		499D2CC714E46C5A002B4A66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		499D2CB014E46C5A002B4A66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499D2CB814E46C5A002B4A66 /* UIKit.framework in Frameworks */,
+				499D2CBA14E46C5A002B4A66 /* Foundation.framework in Frameworks */,
+				499D2CBC14E46C5A002B4A66 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		499D2CA814E46C5A002B4A66 = {
+			isa = PBXGroup;
+			children = (
+				499D2CBD14E46C5A002B4A66 /* TapLight */,
+				499D2CB614E46C5A002B4A66 /* Frameworks */,
+				499D2CB414E46C5A002B4A66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		499D2CB414E46C5A002B4A66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				499D2CB314E46C5A002B4A66 /* TapLight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		499D2CB614E46C5A002B4A66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				499D2CB714E46C5A002B4A66 /* UIKit.framework */,
+				499D2CB914E46C5A002B4A66 /* Foundation.framework */,
+				499D2CBB14E46C5A002B4A66 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		499D2CBD14E46C5A002B4A66 /* TapLight */ = {
+			isa = PBXGroup;
+			children = (
+				499D2CC614E46C5A002B4A66 /* AppDelegate.h */,
+				499D2CC714E46C5A002B4A66 /* AppDelegate.m */,
+				499D2CBE14E46C5A002B4A66 /* Supporting Files */,
+			);
+			path = TapLight;
+			sourceTree = "<group>";
+		};
+		499D2CBE14E46C5A002B4A66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				499D2CBF14E46C5A002B4A66 /* TapLight-Info.plist */,
+				499D2CC014E46C5A002B4A66 /* InfoPlist.strings */,
+				499D2CC314E46C5A002B4A66 /* main.m */,
+				499D2CC514E46C5A002B4A66 /* TapLight-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		499D2CB214E46C5A002B4A66 /* TapLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499D2CCB14E46C5A002B4A66 /* Build configuration list for PBXNativeTarget "TapLight" */;
+			buildPhases = (
+				499D2CAF14E46C5A002B4A66 /* Sources */,
+				499D2CB014E46C5A002B4A66 /* Frameworks */,
+				499D2CB114E46C5A002B4A66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapLight;
+			productName = TapLight;
+			productReference = 499D2CB314E46C5A002B4A66 /* TapLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		499D2CAA14E46C5A002B4A66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = XeSys;
+			};
+			buildConfigurationList = 499D2CAD14E46C5A002B4A66 /* Build configuration list for PBXProject "TapLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 499D2CA814E46C5A002B4A66;
+			productRefGroup = 499D2CB414E46C5A002B4A66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				499D2CB214E46C5A002B4A66 /* TapLight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		499D2CB114E46C5A002B4A66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499D2CC214E46C5A002B4A66 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		499D2CAF14E46C5A002B4A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499D2CC414E46C5A002B4A66 /* main.m in Sources */,
+				499D2CC814E46C5A002B4A66 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		499D2CC014E46C5A002B4A66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				499D2CC114E46C5A002B4A66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		499D2CC914E46C5A002B4A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		499D2CCA14E46C5A002B4A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		499D2CCC14E46C5A002B4A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapLight/TapLight-Prefix.pch";
+				INFOPLIST_FILE = "TapLight/TapLight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		499D2CCD14E46C5A002B4A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapLight/TapLight-Prefix.pch";
+				INFOPLIST_FILE = "TapLight/TapLight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		499D2CAD14E46C5A002B4A66 /* Build configuration list for PBXProject "TapLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499D2CC914E46C5A002B4A66 /* Debug */,
+				499D2CCA14E46C5A002B4A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499D2CCB14E46C5A002B4A66 /* Build configuration list for PBXNativeTarget "TapLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499D2CCC14E46C5A002B4A66 /* Debug */,
+				499D2CCD14E46C5A002B4A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 499D2CAA14E46C5A002B4A66 /* Project object */;
+}
