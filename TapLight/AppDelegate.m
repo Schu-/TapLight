@@ -7,19 +7,46 @@
 //
 
 #import "AppDelegate.h"
+#import "TapLight.h"
+#import "TapSettings.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize tapNav;
+@synthesize launch;
+
+
+#pragma mark -
+#pragma mark Application Lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    
+    TapLight *light = [[TapLight alloc] initWithNibName:@"TapLight" bundle:nil];
+    
+    // TapSettings *settings = [[TapSettings alloc] initWithNibName:@"TapSettings" bundle:nil];
+    
+    
+    
+    
+    self.tapNav = [[UINavigationController alloc] initWithRootViewController:light];
+     
+     
+     
+    [self.window addSubview:tapNav.view];
+    // [self.window addSubview:settings.view];
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+    
 }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -29,12 +56,14 @@
      */
 }
 
+
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
     /*
      Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
      If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
      */
+
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
@@ -49,6 +78,39 @@
     /*
      Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
      */
+    
+    
+     //Check Application First Run
+     
+     
+     NSUserDefaults *firstRun = [NSUserDefaults standardUserDefaults];
+     launch = [firstRun stringForKey:@"launch"];
+     
+     NSLog(@"First Launch: %@",launch);
+     
+     
+     if (launch == NULL)
+     {
+     NSUserDefaults *firstSetup = [NSUserDefaults standardUserDefaults];
+     
+     NSString *launchSetup = [[NSString alloc] initWithFormat:@"no"];
+     
+     [firstSetup setObject:launchSetup forKey:@"launch"];
+     
+     NSString *firstAuto = [[NSString alloc] initWithFormat:@"off"];
+     NSString *firstShake = [[NSString alloc] initWithFormat:@"off"];
+     
+     [firstSetup setObject:firstAuto forKey:@"auto_key"];
+     [firstSetup setObject:firstShake forKey:@"shake_key"];
+     [firstSetup synchronize];
+     
+     NSLog(@"First Application RUN!!!!");
+     }
+     else if ([launch isEqualToString:@"no"])
+     {
+     NSLog(@"NOT FIRST RUN");
+     }
+    
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application

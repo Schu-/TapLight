@@ -7,25 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49977B4F14EEF47900C4F721 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49977B4E14EEF47900C4F721 /* Settings.plist */; };
+		49977B6614F084D900C4F721 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49977B6514F084D800C4F721 /* AVFoundation.framework */; };
 		499D2CB814E46C5A002B4A66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499D2CB714E46C5A002B4A66 /* UIKit.framework */; };
 		499D2CBA14E46C5A002B4A66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499D2CB914E46C5A002B4A66 /* Foundation.framework */; };
 		499D2CBC14E46C5A002B4A66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499D2CBB14E46C5A002B4A66 /* CoreGraphics.framework */; };
 		499D2CC214E46C5A002B4A66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 499D2CC014E46C5A002B4A66 /* InfoPlist.strings */; };
 		499D2CC414E46C5A002B4A66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 499D2CC314E46C5A002B4A66 /* main.m */; };
 		499D2CC814E46C5A002B4A66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 499D2CC714E46C5A002B4A66 /* AppDelegate.m */; };
+		49A8D35415195E3200CF0B94 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A8D35315195E3200CF0B94 /* Icon.png */; };
+		49A8D35615195E3800CF0B94 /* Icon@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A8D35515195E3800CF0B94 /* Icon@2X.png */; };
+		49A8D36115195F9500CF0B94 /* off@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A8D35F15195F9500CF0B94 /* off@2X.png */; };
+		49A8D36215195F9500CF0B94 /* on@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A8D36015195F9500CF0B94 /* on@2X.png */; };
+		49A8D36515195FB100CF0B94 /* off.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A8D36315195FB100CF0B94 /* off.png */; };
+		49A8D36615195FB100CF0B94 /* on.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A8D36415195FB100CF0B94 /* on.png */; };
+		49AA9CA21518F125000AB61C /* auto.png in Resources */ = {isa = PBXBuildFile; fileRef = 49AA9C9B1518F125000AB61C /* auto.png */; };
+		49AA9CA31518F125000AB61C /* autoNo.png in Resources */ = {isa = PBXBuildFile; fileRef = 49AA9C9C1518F125000AB61C /* autoNo.png */; };
+		49AA9CA41518F125000AB61C /* bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 49AA9C9D1518F125000AB61C /* bottom.png */; };
+		49AA9CA71518F125000AB61C /* shake.png in Resources */ = {isa = PBXBuildFile; fileRef = 49AA9CA01518F125000AB61C /* shake.png */; };
+		49AA9CA81518F125000AB61C /* shakeNo.png in Resources */ = {isa = PBXBuildFile; fileRef = 49AA9CA11518F125000AB61C /* shakeNo.png */; };
+		49AA9CB01518F131000AB61C /* auto@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 49AA9CA91518F131000AB61C /* auto@2X.png */; };
+		49AA9CB11518F131000AB61C /* autoNo@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 49AA9CAA1518F131000AB61C /* autoNo@2X.png */; };
+		49AA9CB21518F131000AB61C /* bottom@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 49AA9CAB1518F131000AB61C /* bottom@2X.png */; };
+		49AA9CB51518F131000AB61C /* shake@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 49AA9CAE1518F131000AB61C /* shake@2X.png */; };
+		49AA9CB61518F131000AB61C /* shakeNo@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 49AA9CAF1518F131000AB61C /* shakeNo@2X.png */; };
+		49CE285D160A32350067FCC9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CE285C160A32350067FCC9 /* Default-568h@2x.png */; };
+		49F32F5D14E8699D0028D9A5 /* TapLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F32F5B14E8699D0028D9A5 /* TapLight.m */; };
+		49F32F5E14E8699D0028D9A5 /* TapLight.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F32F5C14E8699D0028D9A5 /* TapLight.xib */; };
+		49F32F6614EACA9B0028D9A5 /* TapSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F32F6514EACA9B0028D9A5 /* TapSettings.m */; };
+		49F32F7514EAEA5E0028D9A5 /* TapSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F32F7414EAEA5E0028D9A5 /* TapSettings.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49977B4E14EEF47900C4F721 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
+		49977B6514F084D800C4F721 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		499D2CB314E46C5A002B4A66 /* TapLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		499D2CB714E46C5A002B4A66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		499D2CB914E46C5A002B4A66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		499D2CBB14E46C5A002B4A66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		499D2CBF14E46C5A002B4A66 /* TapLight-Info.plist */ = {isa = PBXFileReference; path = "TapLight-Info.plist"; sourceTree = "<group>"; };
+		499D2CBF14E46C5A002B4A66 /* TapLight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapLight-Info.plist"; sourceTree = "<group>"; };
 		499D2CC114E46C5A002B4A66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		499D2CC314E46C5A002B4A66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		499D2CC514E46C5A002B4A66 /* TapLight-Prefix.pch */ = {isa = PBXFileReference; path = "TapLight-Prefix.pch"; sourceTree = "<group>"; };
-		499D2CC614E46C5A002B4A66 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		499D2CC514E46C5A002B4A66 /* TapLight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapLight-Prefix.pch"; sourceTree = "<group>"; };
+		499D2CC614E46C5A002B4A66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		499D2CC714E46C5A002B4A66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49A8D35315195E3200CF0B94 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		49A8D35515195E3800CF0B94 /* Icon@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2X.png"; sourceTree = "<group>"; };
+		49A8D35F15195F9500CF0B94 /* off@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "off@2X.png"; sourceTree = "<group>"; };
+		49A8D36015195F9500CF0B94 /* on@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "on@2X.png"; sourceTree = "<group>"; };
+		49A8D36315195FB100CF0B94 /* off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = off.png; sourceTree = "<group>"; };
+		49A8D36415195FB100CF0B94 /* on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = on.png; sourceTree = "<group>"; };
+		49AA9C9B1518F125000AB61C /* auto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = auto.png; sourceTree = "<group>"; };
+		49AA9C9C1518F125000AB61C /* autoNo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autoNo.png; sourceTree = "<group>"; };
+		49AA9C9D1518F125000AB61C /* bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom.png; sourceTree = "<group>"; };
+		49AA9CA01518F125000AB61C /* shake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shake.png; sourceTree = "<group>"; };
+		49AA9CA11518F125000AB61C /* shakeNo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shakeNo.png; sourceTree = "<group>"; };
+		49AA9CA91518F131000AB61C /* auto@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "auto@2X.png"; sourceTree = "<group>"; };
+		49AA9CAA1518F131000AB61C /* autoNo@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "autoNo@2X.png"; sourceTree = "<group>"; };
+		49AA9CAB1518F131000AB61C /* bottom@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom@2X.png"; sourceTree = "<group>"; };
+		49AA9CAE1518F131000AB61C /* shake@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shake@2X.png"; sourceTree = "<group>"; };
+		49AA9CAF1518F131000AB61C /* shakeNo@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shakeNo@2X.png"; sourceTree = "<group>"; };
+		49CE285C160A32350067FCC9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		49F32F5A14E8699D0028D9A5 /* TapLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapLight.h; sourceTree = "<group>"; };
+		49F32F5B14E8699D0028D9A5 /* TapLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapLight.m; sourceTree = "<group>"; };
+		49F32F5C14E8699D0028D9A5 /* TapLight.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TapLight.xib; sourceTree = "<group>"; };
+		49F32F6414EACA9B0028D9A5 /* TapSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapSettings.h; sourceTree = "<group>"; };
+		49F32F6514EACA9B0028D9A5 /* TapSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapSettings.m; sourceTree = "<group>"; };
+		49F32F7414EAEA5E0028D9A5 /* TapSettings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TapSettings.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49977B6614F084D900C4F721 /* AVFoundation.framework in Frameworks */,
 				499D2CB814E46C5A002B4A66 /* UIKit.framework in Frameworks */,
 				499D2CBA14E46C5A002B4A66 /* Foundation.framework in Frameworks */,
 				499D2CBC14E46C5A002B4A66 /* CoreGraphics.framework in Frameworks */,
@@ -42,9 +91,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4943450E14F6D20D00981D7F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				49A8D36315195FB100CF0B94 /* off.png */,
+				49A8D36415195FB100CF0B94 /* on.png */,
+				49A8D35F15195F9500CF0B94 /* off@2X.png */,
+				49A8D36015195F9500CF0B94 /* on@2X.png */,
+				49AA9CA91518F131000AB61C /* auto@2X.png */,
+				49AA9CAA1518F131000AB61C /* autoNo@2X.png */,
+				49AA9CAB1518F131000AB61C /* bottom@2X.png */,
+				49AA9CAE1518F131000AB61C /* shake@2X.png */,
+				49AA9CAF1518F131000AB61C /* shakeNo@2X.png */,
+				49AA9C9B1518F125000AB61C /* auto.png */,
+				49AA9C9C1518F125000AB61C /* autoNo.png */,
+				49AA9C9D1518F125000AB61C /* bottom.png */,
+				49AA9CA01518F125000AB61C /* shake.png */,
+				49AA9CA11518F125000AB61C /* shakeNo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		499D2CA814E46C5A002B4A66 = {
 			isa = PBXGroup;
 			children = (
+				49CE285C160A32350067FCC9 /* Default-568h@2x.png */,
+				49A8D35515195E3800CF0B94 /* Icon@2X.png */,
+				49A8D35315195E3200CF0B94 /* Icon.png */,
+				49977B6514F084D800C4F721 /* AVFoundation.framework */,
 				499D2CBD14E46C5A002B4A66 /* TapLight */,
 				499D2CB614E46C5A002B4A66 /* Frameworks */,
 				499D2CB414E46C5A002B4A66 /* Products */,
@@ -72,6 +146,12 @@
 		499D2CBD14E46C5A002B4A66 /* TapLight */ = {
 			isa = PBXGroup;
 			children = (
+				49F32F6414EACA9B0028D9A5 /* TapSettings.h */,
+				49F32F6514EACA9B0028D9A5 /* TapSettings.m */,
+				49F32F5A14E8699D0028D9A5 /* TapLight.h */,
+				49F32F5B14E8699D0028D9A5 /* TapLight.m */,
+				49F32F7414EAEA5E0028D9A5 /* TapSettings.xib */,
+				49F32F5C14E8699D0028D9A5 /* TapLight.xib */,
 				499D2CC614E46C5A002B4A66 /* AppDelegate.h */,
 				499D2CC714E46C5A002B4A66 /* AppDelegate.m */,
 				499D2CBE14E46C5A002B4A66 /* Supporting Files */,
@@ -82,6 +162,8 @@
 		499D2CBE14E46C5A002B4A66 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4943450E14F6D20D00981D7F /* Images */,
+				49977B4E14EEF47900C4F721 /* Settings.plist */,
 				499D2CBF14E46C5A002B4A66 /* TapLight-Info.plist */,
 				499D2CC014E46C5A002B4A66 /* InfoPlist.strings */,
 				499D2CC314E46C5A002B4A66 /* main.m */,
@@ -116,7 +198,7 @@
 		499D2CAA14E46C5A002B4A66 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = XeSys;
 			};
 			buildConfigurationList = 499D2CAD14E46C5A002B4A66 /* Build configuration list for PBXProject "TapLight" */;
@@ -142,6 +224,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				499D2CC214E46C5A002B4A66 /* InfoPlist.strings in Resources */,
+				49F32F5E14E8699D0028D9A5 /* TapLight.xib in Resources */,
+				49F32F7514EAEA5E0028D9A5 /* TapSettings.xib in Resources */,
+				49977B4F14EEF47900C4F721 /* Settings.plist in Resources */,
+				49AA9CA21518F125000AB61C /* auto.png in Resources */,
+				49AA9CA31518F125000AB61C /* autoNo.png in Resources */,
+				49AA9CA41518F125000AB61C /* bottom.png in Resources */,
+				49AA9CA71518F125000AB61C /* shake.png in Resources */,
+				49AA9CA81518F125000AB61C /* shakeNo.png in Resources */,
+				49AA9CB01518F131000AB61C /* auto@2X.png in Resources */,
+				49AA9CB11518F131000AB61C /* autoNo@2X.png in Resources */,
+				49AA9CB21518F131000AB61C /* bottom@2X.png in Resources */,
+				49AA9CB51518F131000AB61C /* shake@2X.png in Resources */,
+				49AA9CB61518F131000AB61C /* shakeNo@2X.png in Resources */,
+				49A8D35415195E3200CF0B94 /* Icon.png in Resources */,
+				49A8D35615195E3800CF0B94 /* Icon@2X.png in Resources */,
+				49A8D36115195F9500CF0B94 /* off@2X.png in Resources */,
+				49A8D36215195F9500CF0B94 /* on@2X.png in Resources */,
+				49A8D36515195FB100CF0B94 /* off.png in Resources */,
+				49A8D36615195FB100CF0B94 /* on.png in Resources */,
+				49CE285D160A32350067FCC9 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +256,8 @@
 			files = (
 				499D2CC414E46C5A002B4A66 /* main.m in Sources */,
 				499D2CC814E46C5A002B4A66 /* AppDelegate.m in Sources */,
+				49F32F5D14E8699D0028D9A5 /* TapLight.m in Sources */,
+				49F32F6614EACA9B0028D9A5 /* TapSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,8 +279,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv7,
+					armv6,
+				);
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -187,11 +295,14 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -200,17 +311,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv7,
+					armv6,
+				);
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -221,7 +339,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TapLight/TapLight-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "TapLight/TapLight-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -232,8 +352,11 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TapLight/TapLight-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "TapLight/TapLight-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -257,6 +380,7 @@
 				499D2CCD14E46C5A002B4A66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
